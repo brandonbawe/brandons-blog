@@ -1,0 +1,52 @@
+.index-hero-section {
+    width: 90vw;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.index-hero-section-inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.index-hero-section-inner * {
+    margin-bottom: 1rem;
+}
+.button {
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+
+.start-reading-btn {
+    background-color: #151515;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.newsletter-subscription {
+    width: 60%;
+    padding: 2rem;
+    border: 2px solid #151515;
+     margin: 0 auto;
+}
+
+.newsletter-subscription input {
+    padding: 0.3rem;
+}
+
+.newsletter-subscription input[type=email] {
+    width: 80%;
+    border: 1px solid #151515;
+    font-family: inherit;
+}
+
+.newsletter-subscription input[type=submit]  {
+  width: 15%;
+  background-color: hsl(0, 87%, 67%);
+  border: 1px solid  hsl(0, 87%, 67%);
+  color: white;
+}

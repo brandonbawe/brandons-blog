@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap);
+/* ========= Reset CSS ======== */
+*::before,
+*::after,
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+ 
+header {
+    width: 100vw;
+    font-size: 18px;
+    height: 4rem;
+    padding: 1rem 0;
+    background-color: #151515;
+    color: white;
+    margin-bottom: 4rem;
+   font-family: 'Lato', sans-serif;
+}
+
+nav {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    width: 20rem;
+    display: inherit;
+    justify-content: inherit;
+}
+
+nav ul li a,
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    color: hsl(180, 66%, 49%);
+}
+
+.active {
+ color: hsl(0, 87%, 67%);
+}
+
+
+
+.index-hero-section {
+    width: 90vw;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.index-hero-section-inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.index-hero-section-inner * {
+    margin-bottom: 1rem;
+}
+.button {
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+
+.start-reading-btn {
+    background-color: #151515;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.newsletter-subscription {
+    width: 60%;
+    padding: 2rem;
+    border: 2px solid #151515;
+     margin: 0 auto;
+}
+
+.newsletter-subscription input {
+    padding: 0.3rem;
+}
+
+.newsletter-subscription input[type=email] {
+    width: 80%;
+    border: 1px solid #151515;
+    font-family: inherit;
+}
+
+.newsletter-subscription input[type=submit]  {
+  width: 15%;
+  background-color: hsl(0, 87%, 67%);
+  border: 1px solid  hsl(0, 87%, 67%);
+  color: white;
+}
+footer {
+    width: 100vw;
+    background-color: #151515;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-inner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-inner ul li,
+.footer-inner ul li a {
+    color: hsl(0, 0%, 75%);
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+
+.footer-inner ul li a:hover {
+    color: hsl(180, 66%, 49%);
+}
+
+.footer-inner ul h3 {
+    padding-bottom: 10px;
+}
+
+.footer-inner .social-media-links svg {
+    fill: #fff;
+    margin-right: 0.4rem;
+}
+
+a {
+    color: hsl(0, 87%, 67%);
+}
+
+footer > p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
