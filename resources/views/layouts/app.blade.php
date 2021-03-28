@@ -61,7 +61,7 @@
                               <a href="posts" class="nav-link">Articles</a>
                             </li>
                             <li class="nav-item">
-                               <button class="button start-reading-btn"><a href="posts/create">Write an Article</a></button> 
+                               <button class="button start-reading-btn"><a href="posts/create" class="text-write text-decoration-none">Write an Article</a></button> 
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
