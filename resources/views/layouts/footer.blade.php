@@ -8,7 +8,7 @@
                     <li><a href="">Contact Us</a></li>
                 </ul>
                 <ul>
-                    <h4>Popular Tags</h4>
+                    <h4>Popular Categories</h4>
                     <li><a href="">Web Development</a></li>
                     <li><a href="">Gadget Unboxing</a></li>
                     <li><a href="">Cyber Security</a></li>
